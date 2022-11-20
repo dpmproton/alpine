@@ -1,10 +1,10 @@
-setup-xorg-base xf86-video-amdgpu xfce4 xfce4-terminal lightdm-gtk-greeter xfce-polkit xfce4-screensaver consolekit2 dbus-x11
-apk add faenza-icon-theme 
-setup-devd udev
-apk add gvfs udisks2 ntfs-3g gvfs-fuse gvfs-smb
-xfce4-pulseaudio-plugin pulseaudio  pulseaudio-alsa alsa-plugins-pulse alsa-utilis alsa-utilis-doc alsa-lib alsaconf
-
-rc-service dbus start && \
-rc-update add dbus && \
-rc-update add lightdm && \
-rc-service lightdm start && \
+setup-xorg-base xf86-video-amdgpu
+apk add mate-desktop-environment dbus dbus-x11 lxdm adwaita-icon-theme faenza-icon-theme
+gvfs_pkgs=$(apk search gvfs -q | grep -v '\-dev' | grep -v '\-lang' | grep -v '\-doc')
+apk add $gvfs_pkgs
+ttfs=$(apk search -q ttf- | grep -v '\-doc')
+apk add $ttfs
+rc-update add dbus
+rc-update add lxdm
+rc-service dbus start
+rc-service lxdm start
