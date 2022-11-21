@@ -8,3 +8,4 @@ rc-update add gdm
 apk add bash
 apk add bash-completion
 apk add thunar-volman
+lbu commit -v
