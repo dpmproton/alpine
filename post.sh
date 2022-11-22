@@ -1,3 +1,3 @@
-apk add kolourpaint geany ristretto firefox libreoffice apk add libreoffice-lang-es
+apk add geany ristretto firefox libreoffice libreoffice-lang-es
 lbu commit
 
