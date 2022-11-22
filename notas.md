@@ -1,5 +1,13 @@
-Formatear usb en Fat32 (con windows si gustas) 
+# Crear un usb booteable para computadoras sin disco duro o de estado sólido.
 
+El Sistema operativo se carga en RAM siempre, por lo que computadoras viejas funcionan un poco mejor.
+Se necesian dos memorias USB. Una de uso temporal (no importa el tamaño) como boot y la otra para cargar cada vez que se reinicie o vuelva a prender la computadora (4 GB min).
+
+1. Descargar la imagen standard de alpine linux de https://www.alpinelinux.org/downloads/
+2. Descargar e instalar (si en windows) balena etcher https://www.balena.io/etcher/
+3. Cargar el iso descargado en la memoria usb de uso temporal utilizando balena etcher
+4. Formatear una memoria USB en Fat32 (me funcionó con windows 7)
+5. 
 
 Hacer el boot install de alpine
 hacer booteable con fsdisk bootable -a
@@ -32,9 +40,12 @@ https://extensions.libreoffice.org/en/extensions/show/spanish-dictionaries
 descargar y abrir con libreoffice
 Cambiar el lenguaje de libre office en herramientas opciones o configuracion y lenguaje
 
-APK add doas nano
-Adduser recepcion1 wheel # add user to group wheel 
-Nano /etc/doas.conf
-Añadir línea:
-Permit persist wheel
-Nano /etc/APK/repositories # Remove comments from all but last
+# agrega el editor de texto nano
+apk add doas nano
+# añadir usuario a grupo wheel
+Adduser pinocho wheel  
+nano /etc/doas.conf
+#Añadir línea:
+#Permit persist wheel
+# habilita todos los repositorios excepto el de prueba (último) removiendo el signo de gato
+nano /etc/apk/repositories 
