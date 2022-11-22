@@ -9,7 +9,7 @@ obtener el usuario en cmd con>  net user
 
 poner ese usuarion , grupo de trabajo y la contrasena de la cuenta del usuario, poner recordar por siempre
 
-instalar paquete de espanol en libreoffice
+instalar paquete de espanol desde el usuario en libreoffice
 https://extensions.libreoffice.org/en/extensions/show/spanish-dictionaries
 descargar y abrir con libreoffice
 Cambiar el lenguaje de libre office en herramientas opciones o configuracion y lenguaje
