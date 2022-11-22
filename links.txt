@@ -1,0 +1,15 @@
+https://wiki.alpinelinux.org/wiki/Initramfs_init
+cow_spacesize=1G
+https://wiki.archlinux.org/title/kernel_parameters
+https://wiki.alpinelinux.org/wiki/Sysctl.conf
+https://www.wildtechgarden.ca/docs/deploy-admin/server-alpine-linux-docs4web/kernel-and-hardware-notes/guides-for-setting-kernel-parameters/
+https://wiki.alpinelinux.org/wiki/Initramfs_init
+sysctl -w cow_spacesize=3G
+
+
+
+https://wiki.archlinux.org/title/kernel_parameters
+
+Adjust The Size Of The File system on live diskless alpine
+
+https://www.fedux.org/articles/setup-alpine-linux-diskless.html
