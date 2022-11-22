@@ -1,6 +1,24 @@
-Formatear usb en Fat32
+Formatear usb en Fat32 (con windows si gustas) 
+
+
 Hacer el boot install de alpine
 hacer booteable con fsdisk bootable -a
+
+Quitar el disco de instalacion, y arrancar desde la usb que e trabajo
+
+correr setup-alpine.
+cuando pregunta por usuario extra crear pinocho sin nombre largo, contraseña la que quieras
+Selecionar disco: ninguno | las siguientes dos opciones seleccionar usb
+
+descarga i4.sh con 
+wget https://raw.githubusercontent.com/dpmproton/alpine/main/i4.sh
+hazlo ejecutable con chmod +x i4.sh
+ejecutalo
+
+si todo sale bien entras el entorno de escritorio
+
+
+luego ejecuta el post 
 
 Para la red, en windows cambiar todo a encripcion a 40 o 56 bits
 la compu que hostea el archivo compartido debe tener contrasena
