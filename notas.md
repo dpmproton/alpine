@@ -55,7 +55,7 @@ Apk cache directory: usb
 ```
 
 18. Añadimos al usuario al grupo *wheel* modificando el archivo de configuración utilizando nano: `adduser pinocho wheel` 
-19. Declara al usuario con autoridad para realizar cambios utilizando doas. Empieza por agregar el editor nano: `apk add doas nano`
+19. Declara al usuario con autoridad para realizar cambios utilizando doas. Empieza por agregar el editor nano: `apk add nano`
 20. Abre el archivo de configuracion en el editor ejecutando nano /etc/doas.conf 
 21. Escribe: `permit persist wheel`
 22. Guarda cambios presionando Ctrl+o, enter y luego ctrl+x
@@ -94,6 +94,13 @@ Default Language for Documents: Español (México)
 la compu que hostea el archivo compartido debe tener contrasena como usuario.
 2. Obtener el usuario en cmd con: `net user`
 3. En la computadora que estamos preparando dar click en el botón superior izquierdo *applications* y seleccionar *file manager*. Ahí seleccionar *browse network*, seleccionar windows network. Seleccionar grupo de trabajo y el equipo que comparte la carpeta. Le va a preguntar usuario, network y contraseña. Pone el usuario obtenido con `net user`, el network es el nombre del grupo de trabajo y contraseña es la contraseña de la cuenta del usuario de microsoft. Seleccionar recordar por siempre.
+4. Copiar la dirección de la carpeta compartida
+5. En el escritorio dar click derecho, add shortcut. Colocar en nombre: Carpeta para imprimir. En comando: `thunar` seguido de un espacio y la dirección de la carpeta compartida. Seleccionar un ícono adecuado.
+6. Ejecutar comando para guardar los cambios.
+
+## Agregar íconos
+
+1. Dar click derecho en el escritorio
 
 ## Firefox
 
