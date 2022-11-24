@@ -98,11 +98,25 @@ la compu que hostea el archivo compartido debe tener contrasena como usuario.
 5. En el escritorio dar click derecho, add shortcut. Colocar en nombre: Carpeta para imprimir. En comando: `thunar` seguido de un espacio y la dirección de la carpeta compartida. Seleccionar un ícono adecuado.
 6. Ejecutar comando para guardar los cambios.
 
-## Agregar íconos
+## Funcionamiento del escritorio
 
-1. Dar click derecho en el escritorio
+
+
+### Boton inicio abre menu de aplicaciones 
 
 xfce4-popup-applicationsmenu
+
+### siempre iniciar con numslock activo
+
+In the file ~/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml, make sure the following values are set to true:
+
+<property name="Numlock" type="bool" value="true"/>
+<property name="RestoreNumlock" type="bool" value="true"/>
+
+
+### Agregar íconos
+
+
 
 ## Firefox
 
