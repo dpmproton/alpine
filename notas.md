@@ -102,6 +102,8 @@ la compu que hostea el archivo compartido debe tener contrasena como usuario.
 
 1. Dar click derecho en el escritorio
 
+xfce4-popup-applicationsmenu
+
 ## Firefox
 
 
