@@ -1,7 +1,7 @@
 lbu include /home
 lbu include /var
 lbu include /home/pinocho/.mozilla/firefox/
-adduser piocho
+adduser pinocho
 echo pinocho:usb | chpasswd
 adduser pinocho wheel
 echo "permit persist wheel" > /etc/doas.conf
