@@ -110,9 +110,11 @@ xfce4-popup-applicationsmenu
 
 In the file ~/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml, make sure the following values are set to true:
 
+
+```
 <property name="Numlock" type="bool" value="true"/>
 <property name="RestoreNumlock" type="bool" value="true"/>
-
+```
 
 ### Agregar íconos
 
