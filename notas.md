@@ -128,3 +128,4 @@ https://dev.alpinelinux.org/~clandmeter/other/forum.alpinelinux.org/forum/genera
 
 https://www.debugpoint.com/xfce-arch-linux-install-4-16/
  
+  	xfce4-panel-lang
