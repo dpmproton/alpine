@@ -129,3 +129,10 @@ https://dev.alpinelinux.org/~clandmeter/other/forum.alpinelinux.org/forum/genera
 https://www.debugpoint.com/xfce-arch-linux-install-4-16/
  
   	xfce4-panel-lang
+   xfdesktop-lang
+   
+   and in the ~/.profile file, i add
+```
+export LANG="fr_FR.utf8"
+export LC_COLLATE="C"
+```
