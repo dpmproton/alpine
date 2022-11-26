@@ -122,6 +122,9 @@ In the file ~/.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml, make sure 
 
 ## Firefox
 
+## Extras
 
+https://dev.alpinelinux.org/~clandmeter/other/forum.alpinelinux.org/forum/general-discussion/change-language.html
 
+https://www.debugpoint.com/xfce-arch-linux-install-4-16/
  
