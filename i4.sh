@@ -1,8 +1,6 @@
 lbu include /home
 lbu include /var
 lbu include /home/pinocho/.mozilla/firefox/
-adduser pinocho
-echo pinocho:usb | chpasswd
 adduser pinocho wheel
 echo "permit persist wheel" > /etc/doas.conf
 echo 'export LANG="es_ES.utf8"' > /home/pinocho/.profile
