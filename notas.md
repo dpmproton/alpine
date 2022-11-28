@@ -136,6 +136,9 @@ https://www.debugpoint.com/xfce-arch-linux-install-4-16/
 export LANG="fr_FR.utf8"
 export LC_COLLATE="C"
 ```
+
+## Bluetooth
+https://wiki.alpinelinux.org/wiki/Raspberry_Pi_3_-_Setting_Up_Bluetooth
 ## Print
 
 https://www.antixforum.com/forums/topic/set-scanner-printer-at-antix-base/
