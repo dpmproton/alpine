@@ -136,3 +136,8 @@ https://www.debugpoint.com/xfce-arch-linux-install-4-16/
 export LANG="fr_FR.utf8"
 export LC_COLLATE="C"
 ```
+## Print
+
+https://www.antixforum.com/forums/topic/set-scanner-printer-at-antix-base/
+https://www.antixforum.com/forums/topic/unable-to-access-cups-or-configure-a-printer-on-antix-19/
+https://www.antixforum.com/forums/topic/to-print-on-antix-17/
