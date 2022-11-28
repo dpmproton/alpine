@@ -140,7 +140,7 @@ export LC_COLLATE="C"
 ## Bluetooth
 https://wiki.alpinelinux.org/wiki/Raspberry_Pi_3_-_Setting_Up_Bluetooth
 ## Print
-
+https://wiki.alpinelinux.org/wiki/Printer_Setup
 https://www.antixforum.com/forums/topic/set-scanner-printer-at-antix-base/
 https://www.antixforum.com/forums/topic/unable-to-access-cups-or-configure-a-printer-on-antix-19/
 https://www.antixforum.com/forums/topic/to-print-on-antix-17/
