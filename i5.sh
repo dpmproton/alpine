@@ -19,4 +19,4 @@ rc-update add dbus
 rc-service alsa start
 rc-update add alsa
 rc-update add lightdm
-rc-update lightdm start
+rc-service lightdm start
