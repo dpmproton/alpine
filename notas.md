@@ -8,7 +8,25 @@ Se necesian dos memorias USB. Una de uso temporal (no importa el tamaño) como b
 1. Descargar la imagen standard de alpine linux de https://www.alpinelinux.org/downloads/
 2. Descargar e instalar (si en windows) balena etcher https://www.balena.io/etcher/
 3. Cargar el iso descargado en la memoria usb de uso temporal utilizando balena etcher
-4. Formatear una memoria USB en Fat32 (me funcionó con windows 7)
+4. Formatear una memoria USB en Fat32 (me funcionó con windows 7) o si ta tienes una sesión de alpine funcionando:
+
+```bash
+apk add parted
+parted /dev/sdb
+```
+
+```bash
+mklabel msdos
+mkpart primary fat32 0% 100%
+set 1 boot on
+quit
+```
+
+```bash
+mkfs.vfat -F 32 -n alpine /dev/sdb1
+```
+
+
 5. Ingresa  `root` y enter.
 6. Realizar el setup-alpine ejecutando `setup-alpine -q`. A. todo le dices que default/no menos a la conexion de red, que tiene que quedar establecida.
 7. Ya que termine, conecta la memoria USB para uso permanente
@@ -131,11 +149,8 @@ https://www.debugpoint.com/xfce-arch-linux-install-4-16/
   	xfce4-panel-lang
    xfdesktop-lang
    
-   and in the ~/.profile file, i add
-```
-export LANG="fr_FR.utf8"
-export LC_COLLATE="C"
-```
+
+
 
 ## Bluetooth
 https://wiki.alpinelinux.org/wiki/Raspberry_Pi_3_-_Setting_Up_Bluetooth
